@@ -243,7 +243,7 @@ st.subheader('Class Analysis for class: ' + str(live_code))
 
 def main():
 
-    background_subtractor = cv2.bgsegm.createBackgroundSubtractorMOG()
+    background_subtractor = cv2.bgsegm.createBackgroundSubtractorMOG2()
     num_of_frames = 100
     first_iteration_indicator = 1
     accum_image = []
