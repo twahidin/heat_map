@@ -8,8 +8,6 @@ import re
 import threading
 from typing import Union
 from matplotlib import pyplot as plt
-import tensorflow as tf
-import tensorflow_hub as hub
 import numpy as np
 import pandas as pd
 import streamlit as st
